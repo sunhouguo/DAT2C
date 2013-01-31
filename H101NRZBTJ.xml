@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<!--StatusLogName>./ProtocolLog/H101NRZBTJStatus1.log</StatusLogName-->
+	<!--FrameLogName>./ProtocolLog/H101NRZBTJFrame1.xml</FrameLogName-->
+	<!--PrintStatusTerm>true</PrintStatusTerm-->
+	<!--PrintFrameTerm>true</PrintFrameTerm-->
+	<TransDelay>true</TransDelay>
+	<WaitforanswerTimeout>20</WaitforanswerTimeout>
+	<!--ClearQuality>false</ClearQuality-->
+	<!--Timer>
+	<TimeOutQueryUnActivePoint>60</TimeOutQueryUnActivePoint>
+	<TimeOutSynTime>3600</TimeOutSynTime>
+	<TimeOutCallAllData>5400</TimeOutCallAllData>
+	</Timer-->
+</ProtocolROOT>

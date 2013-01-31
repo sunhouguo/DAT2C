@@ -1,0 +1,19 @@
+<?xml-stylesheet type="text/xsl" href="../web/protocol.xsl"?>
+<ProtocolROOT>
+<ActiveRepeatFrame>TRUE</ActiveRepeatFrame>
+<!--ActiveDataRecv>TRUE</ActiveDataRecv-->
+<!--LostRecvTimeOut>30</LostRecvTimeOut-->
+<LostAnswerTimesOut>3</LostAnswerTimesOut>
+<ProtocolType>NormalType</ProtocolType>
+	<!--StatusLogName>./ProtocolLog/H103Status.log</StatusLogName>
+	<FrameLogName>./ProtocolLog/H103Frame.log</FrameLogName-->
+<InfoAddr>
+	<DYX_START_ADDR>165</DYX_START_ADDR>	
+</InfoAddr>
+<Timer>
+	<TimeOutQueryUnActivePoint>61</TimeOutQueryUnActivePoint>
+	<TimeOutHeartFrame>2</TimeOutHeartFrame>
+	<TimeOutYkSel>10</TimeOutYkSel>
+	<TimeOutYkExe>10</TimeOutYkExe>
+</Timer>
+</ProtocolROOT>

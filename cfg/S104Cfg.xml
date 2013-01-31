@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<StatusLogName>./ProtocolLog/S104Status.log</StatusLogName>
+	<FrameLogName>./ProtocolLog/S104Frame.log</FrameLogName>
+	<PrintStatusTerm>true</PrintStatusTerm>
+	<PrintFrameTerm>true</PrintFrameTerm>
+	<SecretKey>
+		<KeyType>Sm2</KeyType>
+		<KeyPath>Sm2Site.pem</KeyPath>
+	</SecretKey>
+</ProtocolROOT>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a sub for nanjin , edit by ZHANGZHIHUA -->
+<SubStationNode>
+	<EnableWatchdog WatchdogLog="false">WatchDogBF518</EnableWatchdog>
+	<LoadSubCfgLogName>./InitLog/LoadSubCfg.log</LoadSubCfgLogName>
+	<!--初始化配置的日志文件-->
+	<InitCommLogName>./InitLog/InitComm.log</InitCommLogName>
+	<!--初始化通讯的日志文件-->
+	<Address>1</Address>
+	<TerminalSet TerminalNum="1" IndexOrderEnable="FALSE">
+		<TerminalNode TerminalNO.="1"  TerminalType = "bf533">
+			<Protocol>H104_Transmit</Protocol>
+			<CommChannel>TcpClientChannel</CommChannel>
+			<RemotePort>2404</RemotePort>
+			<RemoteIP>127.0.0.1</RemoteIP>
+			<Address>1</Address>
+			<PrintStatusTerm>false</PrintStatusTerm>
+			<!--是否在命令行显示通讯通道的信息-->
+			<PrintFrameTerm>false</PrintFrameTerm>
+			<!--是否在命令行显示通讯报文-->
+			<!--CommChannelStatusLog FileType="TextLog">./CommInterfaceLog/TerminalStatus1.log</CommChannelStatusLog-->
+			<!--通讯状态记录日志,日志文件名随便起-->
+			<!--CommChannelFrameLog FileType="TextLog">./CommInterfaceLog/TerminalFrame1.log</CommChannelFrameLog-->
+			<!--通讯报文记录日志，日志文件名随便起-->
+			<YxDB DataBaseNum="0" IndexOrderEnable="FALSE"/>
+			<YcDB DataBaseNum="0" IndexOrderEnable="FALSE"/>
+			<YkDB DataBaseNum="0" IndexOrderEnable="FALSE"/>
+		</TerminalNode>
+	</TerminalSet>
+	<PriStationSet PriStationNum="1" IndexOrderEnable="FALSE">
+		<PriStationNode PriStationNO.="1">
+			<Protocol>S104_Transmit</Protocol>
+			<CommChannel>TcpServerChannel</CommChannel>
+			<LocalPort>2405</LocalPort>
+			<RemoteIP>127.0.0.1</RemoteIP>
+			<!--RemoteIP>218.58.1.6</RemoteIP-->
+			<Address>1</Address>
+			<Author>true</Author>
+			<PrintStatusTerm>false</PrintStatusTerm>
+			<!--是否在命令行显示通讯通道的信息-->
+			<PrintFrameTerm>false</PrintFrameTerm>
+			<!--是否在命令行显示通讯报文-->
+			<!--CommChannelStatusLog FileType="TextLog">./CommInterfaceLog/PristationStatus.log</CommChannelStatusLog-->
+			<!--通讯状态记录日志,日志文件名随便起-->
+			<!--CommChannelFrameLog FileType="TextLog">./CommInterfaceLog/PristationFrame.log</CommChannelFrameLog-->
+			<!--通讯报文记录日志，日志文件名随便起-->
+		</PriStationNode>
+	</PriStationSet>
+</SubStationNode>

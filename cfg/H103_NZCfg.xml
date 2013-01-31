@@ -1,0 +1,16 @@
+<?xml-stylesheet type="text/xsl" href="../web/protocol.xsl"?>
+<ProtocolROOT>
+<ActiveRepeatFrame>TRUE</ActiveRepeatFrame>
+<!--StatusLogName FileType="TextLog" Limit="100">NZStatus.log</StatusLogName>
+<FrameLogName FileType="TextLog" Limit="100">NZFrame.log</FrameLogNam-->
+<!--PrintStatusTerm>true</PrintStatusTerm-->
+<!--PrintFrameTerm>true</PrintFrameTerm-->
+<ProtocolType>NoShortFrameType</ProtocolType>
+<InfoAddr>
+	<DYX_START_ADDR>0</DYX_START_ADDR>
+	<SYX_START_ADDR>0</SYX_START_ADDR>
+</InfoAddr>
+<Timer>
+	<TimeOutCallAllData>30</TimeOutCallAllData>
+</Timer>
+</ProtocolROOT>

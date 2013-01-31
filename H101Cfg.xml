@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<!--StatusLogName>./ProtocolLog/H101Status.log</StatusLogName-->
+	<!--FrameLogName>./ProtocolLog/H101Frame.log</FrameLogName-->
+	<!--PrintStatusTerm>true</PrintStatusTerm-->
+	<!--PrintFrameTerm>true</PrintFrameTerm-->
+	<TransDelay>true</TransDelay>
+	<WaitforanswerTimeout>3</WaitforanswerTimeout>
+</ProtocolROOT>

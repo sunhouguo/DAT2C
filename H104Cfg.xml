@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<!--StatusLogName>./ProtocolLog/H104Status.log</StatusLogName-->
+	<!--FrameLogName>./ProtocolLog/H104Frame.log</FrameLogName-->
+	<!--PrintStatusTerm>true</PrintStatusTerm-->
+	<!--PrintFrameTerm>true</PrintFrameTerm-->
+	<!--Timer>
+	<TimeOutQueryUnActivePoint>600</TimeOutQueryUnActivePoint>
+	</Timer-->
+</ProtocolROOT>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<!--StatusLogName>./ProtocolLog/S101Status.log</StatusLogName-->
+	<!--FrameLogName>./ProtocolLog/S101Frame.log</FrameLogName-->
+	<PrintStatusTerm>false</PrintStatusTerm>
+	<PrintFrameTerm>fasle</PrintFrameTerm>
+	<SecretKey>
+		<KeyType>Ecc</KeyType>
+		<KeyPath>EccSite.pem</KeyPath>
+	</SecretKey>
+</ProtocolROOT>

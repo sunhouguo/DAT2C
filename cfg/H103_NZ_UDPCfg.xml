@@ -1,0 +1,4 @@
+<?xml-stylesheet type="text/xsl" href="../web/protocol.xsl"?>
+<ProtocolROOT>
+<SendBroadCast>false</SendBroadCast>
+</ProtocolROOT>

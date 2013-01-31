@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<!--StatusLogName>./ProtocolLog/H104Status.log</StatusLogName-->
+	<!--FrameLogName>./ProtocolLog/H104Frame.log</FrameLogName-->
+	<PrintStatusTerm>false</PrintStatusTerm>
+	<PrintFrameTerm>false</PrintFrameTerm>
+	<!--SecretKey>
+		<KeyType>Ecc</KeyType>
+		<KeyPath>EccSite.key</KeyPath>
+	</SecretKey-->
+</ProtocolROOT>

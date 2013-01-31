@@ -1,0 +1,7 @@
+<?xml-stylesheet type="text/xsl" href="../web/protocol.xsl"?>
+<ProtocolROOT>
+<StatusLogName FileType="TextLog" Limit="100">NZStatus.log</StatusLogName>
+<FrameLogName FileType="TextLog" Limit="100">NZFrame.log</FrameLogName>
+<!--PrintStatusTerm>true</PrintStatusTerm-->
+<!--PrintFrameTerm>true</PrintFrameTerm-->
+</ProtocolROOT>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<StatusLogName FileType="TextLog">S104Status.log</StatusLogName>
+	<FrameLogName FileType="TextLog">S104Frame.log</FrameLogName>
+	<PrintStatusTerm>true</PrintStatusTerm>
+	<PrintFrameTerm>true</PrintFrameTerm>
+	<SecretKey>
+		<KeyType>Sm2</KeyType><!--数字签名类型-->
+		<KeyPath>Sm2Site.pem</KeyPath><!--指定密钥文件位置-->
+	</SecretKey>
+</ProtocolROOT>

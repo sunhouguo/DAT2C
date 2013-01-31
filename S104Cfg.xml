@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProtocolROOT>
+	<!--StatusLogName>./ProtocolLog/S104Status.log</StatusLogName-->
+	<!--FrameLogName>./ProtocolLog/S104Frame.log</FrameLogName-->
+	<PrintStatusTerm>true</PrintStatusTerm>
+	<PrintFrameTerm>true</PrintFrameTerm>
+	<!--InfoNumLimit>
+		<InfoNumLimitYcVarFrame>40</InfoNumLimitYcVarFrame>
+	</InfoNumLimit-->
+	<CheckRecvI>false</CheckRecvI>
+	<CheckSendI>false</CheckSendI>
+	<SecretKey>
+		<KeyType>Sm2</KeyType><!--数字签名类型-->
+		<KeyPath>Sm2Site.pem</KeyPath><!--指定密钥文件位置-->
+	</SecretKey>
+</ProtocolROOT>
