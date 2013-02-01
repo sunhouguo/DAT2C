@@ -65,14 +65,13 @@ COMMON_OBJ=$(OUTDIR)/Algorithm.o $(OUTDIR)/OutLetSwitch.o \
 	$(OUTDIR)/EccPrivateKey.o $(OUTDIR)/EccPublicKey.o \
 	$(OUTDIR)/EvpKey.o $(OUTDIR)/KeyFactory.o $(OUTDIR)/PrivateKey.o \
 	$(OUTDIR)/PublicKey.o $(OUTDIR)/RsaPrivateKey.o \
-	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/Sm2PrivateKey.o \
-	$(OUTDIR)/Sm2PublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
+	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
 	$(OUTDIR)/SpeEccPublicKey.o $(OUTDIR)/DistributedDA.o \
 	$(OUTDIR)/LinkNode.o $(OUTDIR)/LoadSwtich.o $(OUTDIR)/OperateNode.o \
 	$(OUTDIR)/SelfNode.o $(OUTDIR)/SWNode.o $(OUTDIR)/TieSwitch.o \
-	$(OUTDIR)/BoostLog.o $(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o \
-	$(OUTDIR)/LogFactory.o $(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o \
-	$(OUTDIR)/XmlLog.o $(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
+	$(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o $(OUTDIR)/LogFactory.o \
+	$(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o $(OUTDIR)/XmlLog.o \
+	$(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
 	$(OUTDIR)/Bluetooth.o $(OUTDIR)/Bluetooth_BF518.o $(OUTDIR)/DIO.o \
 	$(OUTDIR)/DIO_PCM82X.o $(OUTDIR)/DIO_Virtual.o \
 	$(OUTDIR)/DioFactory.o $(OUTDIR)/IEEE1588_TPE3000.o \
@@ -116,14 +115,13 @@ ALL_OBJ=$(OUTDIR)/Algorithm.o $(OUTDIR)/OutLetSwitch.o \
 	$(OUTDIR)/EccPrivateKey.o $(OUTDIR)/EccPublicKey.o \
 	$(OUTDIR)/EvpKey.o $(OUTDIR)/KeyFactory.o $(OUTDIR)/PrivateKey.o \
 	$(OUTDIR)/PublicKey.o $(OUTDIR)/RsaPrivateKey.o \
-	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/Sm2PrivateKey.o \
-	$(OUTDIR)/Sm2PublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
+	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
 	$(OUTDIR)/SpeEccPublicKey.o $(OUTDIR)/DistributedDA.o \
 	$(OUTDIR)/LinkNode.o $(OUTDIR)/LoadSwtich.o $(OUTDIR)/OperateNode.o \
 	$(OUTDIR)/SelfNode.o $(OUTDIR)/SWNode.o $(OUTDIR)/TieSwitch.o \
-	$(OUTDIR)/BoostLog.o $(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o \
-	$(OUTDIR)/LogFactory.o $(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o \
-	$(OUTDIR)/XmlLog.o $(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
+	$(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o $(OUTDIR)/LogFactory.o \
+	$(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o $(OUTDIR)/XmlLog.o \
+	$(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
 	$(OUTDIR)/Bluetooth.o $(OUTDIR)/Bluetooth_BF518.o $(OUTDIR)/DIO.o \
 	$(OUTDIR)/DIO_PCM82X.o $(OUTDIR)/DIO_Virtual.o \
 	$(OUTDIR)/DioFactory.o $(OUTDIR)/IEEE1588_TPE3000.o \
@@ -245,14 +243,13 @@ COMMON_OBJ=$(OUTDIR)/Algorithm.o $(OUTDIR)/OutLetSwitch.o \
 	$(OUTDIR)/EccPrivateKey.o $(OUTDIR)/EccPublicKey.o \
 	$(OUTDIR)/EvpKey.o $(OUTDIR)/KeyFactory.o $(OUTDIR)/PrivateKey.o \
 	$(OUTDIR)/PublicKey.o $(OUTDIR)/RsaPrivateKey.o \
-	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/Sm2PrivateKey.o \
-	$(OUTDIR)/Sm2PublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
+	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
 	$(OUTDIR)/SpeEccPublicKey.o $(OUTDIR)/DistributedDA.o \
 	$(OUTDIR)/LinkNode.o $(OUTDIR)/LoadSwtich.o $(OUTDIR)/OperateNode.o \
 	$(OUTDIR)/SelfNode.o $(OUTDIR)/SWNode.o $(OUTDIR)/TieSwitch.o \
-	$(OUTDIR)/BoostLog.o $(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o \
-	$(OUTDIR)/LogFactory.o $(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o \
-	$(OUTDIR)/XmlLog.o $(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
+	$(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o $(OUTDIR)/LogFactory.o \
+	$(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o $(OUTDIR)/XmlLog.o \
+	$(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
 	$(OUTDIR)/Bluetooth.o $(OUTDIR)/Bluetooth_BF518.o $(OUTDIR)/DIO.o \
 	$(OUTDIR)/DIO_PCM82X.o $(OUTDIR)/DIO_Virtual.o \
 	$(OUTDIR)/DioFactory.o $(OUTDIR)/IEEE1588_TPE3000.o \
@@ -296,14 +293,13 @@ ALL_OBJ=$(OUTDIR)/Algorithm.o $(OUTDIR)/OutLetSwitch.o \
 	$(OUTDIR)/EccPrivateKey.o $(OUTDIR)/EccPublicKey.o \
 	$(OUTDIR)/EvpKey.o $(OUTDIR)/KeyFactory.o $(OUTDIR)/PrivateKey.o \
 	$(OUTDIR)/PublicKey.o $(OUTDIR)/RsaPrivateKey.o \
-	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/Sm2PrivateKey.o \
-	$(OUTDIR)/Sm2PublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
+	$(OUTDIR)/RsaPublicKey.o $(OUTDIR)/SpeEccPrivateKey.o \
 	$(OUTDIR)/SpeEccPublicKey.o $(OUTDIR)/DistributedDA.o \
 	$(OUTDIR)/LinkNode.o $(OUTDIR)/LoadSwtich.o $(OUTDIR)/OperateNode.o \
 	$(OUTDIR)/SelfNode.o $(OUTDIR)/SWNode.o $(OUTDIR)/TieSwitch.o \
-	$(OUTDIR)/BoostLog.o $(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o \
-	$(OUTDIR)/LogFactory.o $(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o \
-	$(OUTDIR)/XmlLog.o $(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
+	$(OUTDIR)/FileHandle.o $(OUTDIR)/Log.o $(OUTDIR)/LogFactory.o \
+	$(OUTDIR)/Markup.o $(OUTDIR)/TextLog.o $(OUTDIR)/XmlLog.o \
+	$(OUTDIR)/XmlRecord.o $(OUTDIR)/BatteryActive.o \
 	$(OUTDIR)/Bluetooth.o $(OUTDIR)/Bluetooth_BF518.o $(OUTDIR)/DIO.o \
 	$(OUTDIR)/DIO_PCM82X.o $(OUTDIR)/DIO_Virtual.o \
 	$(OUTDIR)/DioFactory.o $(OUTDIR)/IEEE1588_TPE3000.o \

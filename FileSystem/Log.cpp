@@ -52,7 +52,7 @@ int CLog::GreateFilePath(std::string strFilePath)
 		namespace fs = boost::filesystem;
 		//路径的可移植
 		fs::path full_path( fs::initial_path() );
-		full_path = fs::system_complete( fs::path(strPath, fs::native ) );
+		full_path = fs::system_complete( fs::path(strPath) );
 
 		//判断各级子目录是否存在，不存在则需要创建
 		if ( !fs::exists( full_path ) )
@@ -65,8 +65,6 @@ int CLog::GreateFilePath(std::string strFilePath)
 
 		}
 	}
-
-	//strFilePath = full_path.native_directory_string();
 
 	return 0;
 

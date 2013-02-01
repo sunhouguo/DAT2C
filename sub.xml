@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2010 rel. 3 (http://www.altova.com) by MESMERIZE (MSM) -->
+<SubStationNode>
+	<!--EnableWatchdog WatchdogLog="TRUE">WatchDogPCM82X</EnableWatchdog-->
+	<LoadSubCfgLogName>./InitLog/LoadSubCfg.log</LoadSubCfgLogName>
+	<!--初始化配置的日志文件-->
+	<InitCommLogName>./InitLog/InitComm.log</InitCommLogName>
+	<!--初始化通讯的日志文件-->
+	<Address>1</Address>
+	<TerminalSet TerminalNum="2" IndexOrderEnable="FALSE">
+		<TerminalNode TerminalNO.="1">
+			<Protocol>H104</Protocol>
+			<!--选通讯规约-->
+			<CommChannel>TcpClientChannel</CommChannel>
+			<!--选通讯方式:tcp客户端-->
+			<RemoteIP>127.0.0.1</RemoteIP>
+			<!--tcp对端的ip-->
+			<RemotePort>2409</RemotePort>
+			<!--tcp对端的监听端口-->
+			<PrintStatusTerm>false</PrintStatusTerm>
+			<!--是否在命令行显示通讯通道的信息-->
+			<PrintFrameTerm>false</PrintFrameTerm>
+			<!--是否在命令行显示通讯报文-->
+			<!--CommChannelStatusLog FileType="TextLog">./CommInterface/NetClientStatus1.log</CommChannelStatusLog-->
+			<!--通讯状态记录日志,日志文件名随便起-->
+			<!--CommChannelFrameLog FileType="TextLog">./CommInterface/NetClientFrame1.log</CommChannelFrameLog-->
+			<!--通讯报文记录日志，日志文件名随便起-->
+			<Address>1</Address>
+			<Encrypt>true</Encrypt>
+			<YxDB DataBaseNum="99" IndexOrderEnable="FALSE"/>
+			<YcDB DataBaseNum="100" IndexOrderEnable="false" YcDeadLimit="0"/>
+			<YkDB DataBaseNum="8" IndexOrderEnable="FALSE"/>
+		</TerminalNode>
+		<TerminalNode TerminalNO.="2">
+			<Protocol>H104</Protocol>
+			<!--选通讯规约-->
+			<CommChannel>TcpClientChannel</CommChannel>
+			<!--选通讯方式:tcp客户端-->
+			<RemoteIP>127.0.0.1</RemoteIP>
+			<!--tcp对端的ip-->
+			<RemotePort>2408</RemotePort>
+			<!--tcp对端的监听端口-->
+			<PrintStatusTerm>false</PrintStatusTerm>
+			<!--是否在命令行显示通讯通道的信息-->
+			<PrintFrameTerm>false</PrintFrameTerm>
+			<!--是否在命令行显示通讯报文-->
+			<!--CommChannelStatusLog FileType="TextLog">./CommInterface/NetClientStatus1.log</CommChannelStatusLog-->
+			<!--通讯状态记录日志,日志文件名随便起-->
+			<!--CommChannelFrameLog FileType="TextLog">./CommInterface/NetClientFrame1.log</CommChannelFrameLog-->
+			<!--通讯报文记录日志，日志文件名随便起-->
+			<Address>1</Address>
+			<YxDB DataBaseNum="99" IndexOrderEnable="FALSE"/>
+			<YcDB DataBaseNum="100" IndexOrderEnable="false" YcDeadLimit="0"/>
+			<YkDB DataBaseNum="8" IndexOrderEnable="FALSE"/>
+		</TerminalNode>
+	</TerminalSet>
+	<PriStationSet PriStationNum="1" IndexOrderEnable="FALSE">
+		<PriStationNode PriStationNO.="1">
+			<Protocol>S104</Protocol>
+			<!--选通讯规约-->
+			<CommChannel>TcpServerChannel</CommChannel>
+			<!--选通讯规约：tcp服务器端-->
+			<RemoteIP>127.0.0.1</RemoteIP>
+			<!--允许tcp连接的对端ip，可有多个-->
+			<LocalPort>2404</LocalPort>
+			<!--tcp本地监听端口-->
+			<PrintStatusTerm>false</PrintStatusTerm>
+			<!--是否在命令行显示通讯通道的信息-->
+			<PrintFrameTerm>false</PrintFrameTerm>
+			<!--是否在命令行显示通讯报文-->
+			<!--CommChannelStatusLog FileType="TextLog">./CommInterface/NetServerStatus1.log</CommChannelStatusLog-->
+			<!--通讯状态记录日志,日志文件名随便起-->
+			<!--CommChannelFrameLog FileType="TextLog">./CommInterface/NetServerFrame1.log</CommChannelFrameLog-->
+			<!--通讯报文记录日志，日志文件名随便起-->
+			<Address>1</Address>
+		</PriStationNode>
+	</PriStationSet>
+</SubStationNode>
