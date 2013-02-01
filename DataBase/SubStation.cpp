@@ -4022,14 +4022,14 @@ SigConnection CSubStation::ConnectSubTempSig(CmdRecallSlotType slotVal)
 //	return AlgorithmSig_.connect(slotVal);
 //}
 
-int CSubStation::EnableLoadSubCfgLog( std::string fileName,std::string filetype,std::string limit )
+int CSubStation::EnableLoadSubCfgLog( std::string fileName,std::string filetype,std::string limit /* = "0" */)
 {	
 	FileSystem::CLogFactory::CreateLog(fileName,filetype,limit);
 
 	return 0;
 }
 
-int CSubStation::EnableInitCommLog( std::string fileName,std::string filetype,std::string limit )
+int CSubStation::EnableInitCommLog( std::string fileName,std::string filetype,std::string limit /* = "0" */)
 {
 	FileSystem::CLogFactory::CreateLog(fileName,filetype,limit);
 

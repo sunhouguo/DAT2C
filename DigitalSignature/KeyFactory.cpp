@@ -6,8 +6,8 @@
 #include "RsaPublicKey.h"
 #include "SpeEccPrivateKey.h"
 #include "SpeEccPublicKey.h"
-#include "Sm2PublicKey.h"
-#include "Sm2PrivateKey.h"
+//#include "Sm2PublicKey.h"
+//#include "Sm2PrivateKey.h"
 #include "EvpKey.h"
 
 namespace DigitalSignature {
@@ -15,13 +15,13 @@ namespace DigitalSignature {
 #define strEccDigitalSignature "Ecc"  //使用ECC方式进行加密
 #define strRsaDigitalSignature "Rsa"  //使用RSA方式进行加密
 #define strSpeEccDigitalSignature "SpeEcc"//特殊ECC加密方式
-#define strSm2DigitalSignature "Sm2"  //使用sm2加密方式
+//#define strSm2DigitalSignature "Sm2"  //使用sm2加密方式
 
 const unsigned char NoEncryption = 0;                      //不签名
 const unsigned char EccDigitalSignature = 1;               //ECC数字签名加密
 const unsigned char RsaDigitalSignature = 2;               //RSA数字签名加密
 const unsigned char SpeEccDigitalSignature = 3;            //特殊ECC数字签名加密，长沙使用
-const unsigned char Sm2DigitalSignature = 4;               //使用sm2加密方式
+//const unsigned char Sm2DigitalSignature = 4;               //使用sm2加密方式
 
 CKeyFactory::CKeyFactory(void)
 {
@@ -49,9 +49,9 @@ std::string CKeyFactory::TransSecretKeyTypeToString(unsigned char val)
 		strRet = strSpeEccDigitalSignature;
 		break;
 
-	case Sm2DigitalSignature:
-		strRet = strSm2DigitalSignature;
-		break;
+//	case Sm2DigitalSignature:
+//		strRet = strSm2DigitalSignature;
+//		break;
 
 	default:
 		break;
@@ -76,10 +76,10 @@ unsigned char CKeyFactory::TransSecretKeyTypeFromString(std::string val)
 	{
 		ret = SpeEccDigitalSignature;	
 	}
-	else if (boost::iequals(val,strSm2DigitalSignature))
-	{
-		ret = Sm2DigitalSignature;
-	}
+//	else if (boost::iequals(val,strSm2DigitalSignature))
+//	{
+//		ret = Sm2DigitalSignature;
+//	}
 	else
 	{
 		ret = NoEncryption;
@@ -122,9 +122,9 @@ CPrivateKey * CKeyFactory::CreatePrivateKey(std::string keytype,std::string keyp
 		key = new CSpeEccPrivateKey(keypath);
 		break;
 
-	case Sm2DigitalSignature:
-		key = new CSm2PrivateKey(keypath);
-		break;
+//	case Sm2DigitalSignature:
+//		key = new CSm2PrivateKey(keypath);
+//		break;
 
 	default:
 		break;
@@ -153,9 +153,9 @@ CPublicKey * CKeyFactory::CreatePublicKey(std::string keytype,std::string keypat
 		key = new CSpeEccPublicKey(keypath);
 		break;
 
-	case Sm2DigitalSignature:
-		key = new CSm2PublicKey(keypath,pl);
-		break;
+//	case Sm2DigitalSignature:
+//		key = new CSm2PublicKey(keypath,pl);
+//		break;
 
 	default:
 		break;

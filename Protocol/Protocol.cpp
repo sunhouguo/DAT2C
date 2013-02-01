@@ -15,7 +15,7 @@
 #include "../DigitalSignature/KeyFactory.h"
 #include "../DigitalSignature/PrivateKey.h"
 #include "../DigitalSignature/PublicKey.h"
-#include "../DigitalSignature/Sm2PublicKey.h"
+//#include "../DigitalSignature/Sm2PublicKey.h"
 
 namespace Protocol {
 
@@ -617,11 +617,11 @@ int CProtocol::AssembleCheckPubKeyCon( size_t bufIndex,unsigned char * buf,share
 {
 	if (CheckPubKey())
 	{
-		boost::shared_ptr<DigitalSignature::CSm2PublicKey> sm2Key = boost::dynamic_pointer_cast<DigitalSignature::CSm2PublicKey>(pubKey_);
-		if (sm2Key)
-		{
-			return sm2Key->AssembleCheckKeyCon(&buf[bufIndex],bConAct);
-		}
+		//boost::shared_ptr<DigitalSignature::CSm2PublicKey> sm2Key = boost::dynamic_pointer_cast<DigitalSignature::CSm2PublicKey>(pubKey_);
+		//if (sm2Key)
+		//{
+		//	return sm2Key->AssembleCheckKeyCon(&buf[bufIndex],bConAct);
+		//}
 	}
 
 	return -1;
@@ -631,11 +631,11 @@ int CProtocol::AssembleUpdatePubKeyCon( size_t bufIndex,unsigned char * buf,shar
 {
 	if (CheckPubKey())
 	{
-		boost::shared_ptr<DigitalSignature::CSm2PublicKey> sm2Key = boost::dynamic_pointer_cast<DigitalSignature::CSm2PublicKey>(pubKey_);
-		if (sm2Key)
-		{
-			return sm2Key->AssembleUpdateKeyCon(&buf[bufIndex],bConAct);
-		}
+		//boost::shared_ptr<DigitalSignature::CSm2PublicKey> sm2Key = boost::dynamic_pointer_cast<DigitalSignature::CSm2PublicKey>(pubKey_);
+		//if (sm2Key)
+		//{
+		//	return sm2Key->AssembleUpdateKeyCon(&buf[bufIndex],bConAct);
+		//}
 	}
 
 	return -1;

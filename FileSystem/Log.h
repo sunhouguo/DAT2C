@@ -6,7 +6,7 @@ namespace FileSystem {
 const std::string strNoLog = "NoLog";
 const std::string strTextLog  = "TextLog";
 const std::string strXmlLog   = "XmlLog";
-const std::string strBoostLog = "BoostLog";
+//const std::string strBoostLog = "BoostLog";
 
 class CLog
 {

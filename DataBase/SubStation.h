@@ -275,8 +275,8 @@ private:
 	share_commpoint_ptr getCommPoint(size_t index);
 
 	//log api
-	int EnableLoadSubCfgLog(std::string fileName,std::string filetype,std::string limit);
-	int EnableInitCommLog(std::string fileName,std::string filetype,std::string limit );
+	int EnableLoadSubCfgLog(std::string fileName,std::string filetype,std::string limit = "0");
+	int EnableInitCommLog(std::string fileName,std::string filetype,std::string limit = "0" );
 	int AddLoadSubCfgLog(std::string strVal);
 	int AddLoadSubCfgWithSynT(std::string strVal);
 	int AddInitCommLog(std::string strVal);
