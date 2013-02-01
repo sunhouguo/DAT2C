@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
 			}
 			else
 			{
-				std::cerr << "can't load main cfg file : " << MainCfgFile << std::endl;
+				std::cerr << "can't load main cfg file: " << MainCfgFile << std::endl;
 			}
 		}
 

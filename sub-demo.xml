@@ -15,7 +15,7 @@
 			<!--选通讯方式:tcp客户端-->
 			<RemoteIP>127.0.0.1</RemoteIP>
 			<!--tcp对端的ip-->
-			<RemotePort>2404</RemotePort>
+			<RemotePort>2409</RemotePort>
 			<!--tcp对端的监听端口-->
 			<PrintStatusTerm>false</PrintStatusTerm>
 			<!--是否在命令行显示通讯通道的信息-->
@@ -38,15 +38,15 @@
 			<!--选通讯方式:tcp客户端-->
 			<RemoteIP>127.0.0.1</RemoteIP>
 			<!--tcp对端的ip-->
-			<RemotePort>2405</RemotePort>
+			<RemotePort>2408</RemotePort>
 			<!--tcp对端的监听端口-->
-			<PrintStatusTerm>true</PrintStatusTerm>
+			<PrintStatusTerm>false</PrintStatusTerm>
 			<!--是否在命令行显示通讯通道的信息-->
 			<PrintFrameTerm>false</PrintFrameTerm>
 			<!--是否在命令行显示通讯报文-->
-			<CommChannelStatusLog FileType="TextLog">./CommInterface/NetClientStatus1.log</CommChannelStatusLog>
+			<!--CommChannelStatusLog FileType="TextLog">./CommInterface/NetClientStatus1.log</CommChannelStatusLog-->
 			<!--通讯状态记录日志,日志文件名随便起-->
-			<CommChannelFrameLog FileType="TextLog">./CommInterface/NetClientFrame1.log</CommChannelFrameLog>
+			<!--CommChannelFrameLog FileType="TextLog">./CommInterface/NetClientFrame1.log</CommChannelFrameLog-->
 			<!--通讯报文记录日志，日志文件名随便起-->
 			<Address>1</Address>
 			<YxDB DataBaseNum="99" IndexOrderEnable="FALSE"/>
@@ -62,7 +62,7 @@
 			<!--选通讯规约：tcp服务器端-->
 			<RemoteIP>127.0.0.1</RemoteIP>
 			<!--允许tcp连接的对端ip，可有多个-->
-			<LocalPort>2406</LocalPort>
+			<LocalPort>2404</LocalPort>
 			<!--tcp本地监听端口-->
 			<PrintStatusTerm>false</PrintStatusTerm>
 			<!--是否在命令行显示通讯通道的信息-->

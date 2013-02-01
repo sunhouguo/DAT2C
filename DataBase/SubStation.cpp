@@ -2622,7 +2622,7 @@ int CSubStation::LoadXmlCfg(std::string filename)
 
 	if (!xml.Load(filename))
 	{
-		std::cerr<<"导入xml配置文件"<<filename<<"失败！"<<std::endl;
+		std::cerr<<"load xml config file "<<filename<<"failed."<<std::endl;
 		return -1;
 	}
 
