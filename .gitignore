@@ -172,6 +172,7 @@ pip-log.txt
 ############
 *.log
 *.sh
+*.backup
 DAT2C.idc
 DAT2C.rc
 DAT2C.vcproj

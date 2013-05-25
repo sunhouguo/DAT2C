@@ -11,8 +11,8 @@ namespace LocalDrive {
 
 using namespace boost::posix_time;
 
-#define strBatteryCfg "BatteryCfg"
-#define strDateNode   "DateNode"
+const std::string strBatteryCfg = "BatteryCfg";
+const std::string strDateNode = "DateNode";
 
 time_duration zero_time_duration = time_duration(0,0,0);
 const int hours_a_year = 9000;

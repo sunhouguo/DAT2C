@@ -9,7 +9,6 @@
 #include "OutLetSwitch.h"
 #include "../FileSystem/Markup.h"
 #include "../Protocol/Protocol.h"
-//#include "../FileSystem/TextLog.h"
 #include "../FileSystem/Log.h"
 #include "../FileSystem/LogFactory.h"
 #include "../DataBase/DAOperate.h"

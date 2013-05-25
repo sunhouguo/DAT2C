@@ -1,6 +1,6 @@
 /*
  * sm2.h
- *
+ *  edit : Kern
  *  Created on: 2011-6-3
  *  Author: zweib@sgepri.sgcc
  */
