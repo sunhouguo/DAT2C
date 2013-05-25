@@ -1,4 +1,5 @@
 #pragma once
+//edit
 #include <boost/enable_shared_from_this.hpp>
 #include <boost/function.hpp>
 #include "CommInterface.h"
