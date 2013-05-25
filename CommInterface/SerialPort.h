@@ -9,7 +9,6 @@ namespace FileSystem
 namespace CommInterface {
 
 class CSerialPort :
-	//public boost::enable_shared_from_this<CSerialPort>,
 	public CCommInterface
 {
 public:
